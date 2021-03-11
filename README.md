@@ -1,7 +1,7 @@
 # Mood-Journal
 Allow users to write their mood and other interest they would like to write about
 
-#side note 
+# side note 
 im a junior web developer, so as this project goes along it will change.
 ## What the website should do MVP
 - user
