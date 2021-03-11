@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+}
+
+
+header {
+
+}
+
+header ul {
+
+}
+
+#mood-colour {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+}
