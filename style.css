@@ -3,20 +3,64 @@
   padding: 0;
 }
 body {
-  display: grid;
+  font-size: 20px;
+  background-color: #b5ead7;
 }
 
 
 header {
-
+background-color: #e2f0cb;
 }
 
 header ul {
-
+  display: block;
 }
 
-#mood-colour {
+.container {
+  display: block;
+  margin-top: 40px;
   border: 1px solid black;
-  width: 200px;
-  height: 150px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255,255, 0.7);
+}
+
+#mood_colour {
+  width: 100%;
+  height: 20vh;
+  display: block;
+  border-bottom: 1px solid black;
+  background-color: green;
+  cursor: pointer;
+}
+
+form input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+form #title input {
+  font-weight: bold;
+}
+
+form label {
+  font-size: 24px;
+}
+
+form input, label, textarea {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+form input {
+  width: 80%;
+  border: 1px solid black;
+}
+
+form input #description {
+  height: 400px;
+}
+form button {
+  
 }
